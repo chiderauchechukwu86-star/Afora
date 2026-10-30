@@ -1,0 +1,2 @@
+import {Link} from "react-router-dom";
+export default function Legal({kind}){const t=kind==="terms";return <section className="max-w-2xl mx-auto px-4 pt-10"><Link to="/" className="text-sm text-mute underline">Back home</Link><h1 className="font-serif text-3xl sm:text-4xl font-extrabold tracking-tight mt-4">{t?"Terms of Service":"Privacy Policy"}</h1><p className="mt-4 text-mute">Placeholder page. The final {t?"terms":"policy"} will be added before launch.</p></section>}
